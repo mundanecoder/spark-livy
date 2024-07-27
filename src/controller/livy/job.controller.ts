@@ -1,5 +1,3 @@
-// controllers/job/job.controller.ts
-
 import { FastifyRequest, FastifyReply, RouteShorthandOptions } from "fastify";
 import {
   SubmitRequest,

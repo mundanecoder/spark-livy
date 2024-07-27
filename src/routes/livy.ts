@@ -1,5 +1,3 @@
-// routes/job.routes.ts
-
 import { FastifyInstance } from "fastify";
 import { JobController } from "../controller/livy/job.controller";
 import { LivyService } from "../services/livy/livyservice";

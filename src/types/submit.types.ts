@@ -1,5 +1,3 @@
-// types/submit.types.ts
-
 import { Static, Type } from "@sinclair/typebox";
 
 export const SubmitRequestSchema = Type.Object({

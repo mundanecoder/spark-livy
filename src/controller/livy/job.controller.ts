@@ -14,7 +14,6 @@ import { LivyService } from "../../services/livy/livyservice";
 export class JobController {
   constructor(private livyService: LivyService) {}
 
-  // Route options
   submitJobOpts: RouteShorthandOptions = {
     schema: {
       body: SubmitRequestSchema,

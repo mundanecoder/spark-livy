@@ -3,8 +3,7 @@ import * as dotenv from "dotenv";
 
 dotenv.config();
 
-const mongoUrl: string =
-  process.env.MONGO_URL || "mongodb://localhost:27017/shoppers_den_db";
+const mongoUrl: string = process.env.MONGO_URL || "mongodb://localhost:27017/";
 
 interface DbClient {
   connection: Mongoose;

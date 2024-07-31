@@ -20,7 +20,7 @@ export const SubmitRequestSchema = Type.Object({
 export type SubmitRequest = Static<typeof SubmitRequestSchema>;
 
 export const SubmitResponseSchema = Type.Object({
-  id: Type.Number(),
+  id: Type.String(),
   name: Type.String(),
   owner: Type.Union([Type.String(), Type.Null()]),
   proxyUser: Type.Union([Type.String(), Type.Null()]),
@@ -39,7 +39,7 @@ export const AppInfoSchema = Type.Object({
 });
 
 export const JobStatusResponseSchema = Type.Object({
-  id: Type.Number(),
+  id: Type.String(),
   name: Type.String(),
   owner: Type.Union([Type.String(), Type.Null()]),
   proxyUser: Type.Union([Type.String(), Type.Null()]),
@@ -64,7 +64,7 @@ export type ErrorResponse = Static<typeof ErrorResponseSchema>;
 export type JobStatusResponse = Static<typeof JobStatusResponseSchema>;
 
 export const JobResultResponseSchema = Type.Object({
-  id: Type.Number(),
+  id: Type.String(),
   state: Type.String(),
 });
 

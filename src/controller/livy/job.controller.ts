@@ -9,7 +9,7 @@ import {
   ErrorResponseSchema,
   SubmitResponseSchema,
 } from "../../types/submit.types";
-import { LivyService } from "../../services/livy/livyservice";
+import { LivyService } from "../../services/livy/livy.service";
 
 export class JobController {
   constructor(private livyService: LivyService) {}
